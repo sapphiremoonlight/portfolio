@@ -1,37 +1,21 @@
-# 🌌 Nebula-Notes  
-✨ A minimalist and aesthetic journaling web app designed for cosmic self-reflection. Write your thoughts, track your moods, earn badges, and vibe out to your favorite playlists. Built with pure HTML, CSS, and JavaScript.
+# 🌟 My Projects Portfolio
+
+Welcome to my cozy corner of the web! 🎄✨  
+
+This is a showcase of all my creative projects—web apps, mobile apps, UI/UX designs, and some fun experimental ideas. Browse through interactive modals, play with carousels, and check out videos, demos, and APKs.  
+
+## Features 💫
+- Filter projects by category (Web, App, UI/UX, Graphics)  
+- Click a project to open a modal with images, videos, and downloads  
+- Responsive design—looks cute on any screen (even your tiny phone!)  
+- Interactive carousels with swipe support  
+
+## Tech Stack 🛠️
+- HTML5 / CSS3 / JavaScript  
+- Modern frameworks for design and interactivity  
+- APK support for Android projects  
+- Fun animations & responsive layouts  
+
+Take a peek, have fun, and get inspired! 💛  
 
 ---
-
-## ✨ Features
-
-- 📝 **Journal Entries**  
-  Create, tag, and save personal journal entries complete with titles, timestamps, and categories.
-
-- 🎭 **Mood Tracker**  
-  Track your moods visually on a monthly calendar with colorful emoji circles.
-
-- 🏆 **Gamification**  
-  Engage with Tarot-themed gamification, accompanied by a lunar companion for added cosmic flair.
-
-- 🎧 **Spotify Integration**  
-  Embedded playlists let you listen to your favorite lo-fi or writing tunes as you journal.
-
-- 🔍 **Search & Filter** *(Coming Soon)*  
-  Easily search entries by tag, mood, date, or keywords.
-
----
-
-## 🎨 Color Palette
-
-| Color       | Hex       |
-|-------------|-----------|
-| Lavender    | `#A48ECA` |
-| Purple      | `#60509D` |
-| Lilac       | `#7658B2` |
-| Deep Purple | `#6D588B` |
-| Cream (Text)| `#f5f5dc` |
-
----
-
-
