@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🌌 Nebula Notes</title>
- <link rel="icon" href="assets/favicon.png" type="image/png">
-  <link rel="stylesheet" href="styles/global.css" />
-  <link rel="stylesheet" href="styles/index.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio ✨</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.png">
+
+  <!-- Apple touch icon (iOS home screen) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon.png">
 </head>
+
 <body>
-<div id="particles-js"></div>
-  <!-- Header / Nav -->
-  <header class="site-header">
-    <div class="logo">🌌 Nebula Notes</div>
-    <button id="menu-btn" class="hamburger">☰</button>
-    <nav id="nav-menu" class="nav-menu">
-      <a href="#" class="active">Home</a>
-        <a href="entries.html">Entries</a>
-      <a href="moodtracker.html">Mood Tracker</a>
-	<a href="game.html">Game</a>
-      <a href="rocket.html">Rocket</a>
-    </nav>
+  <nav>
+    <h1>✨ Portfolio</h1>
+
+    <!-- Desktop menu -->
+    <ul class="nav-text">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Mobile icon menu -->
+    <ul class="nav-icons">
+      <li>
+        <a href="#projects" aria-label="Projects">
+          <i class="fa-solid fa-folder-open"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#contact" aria-label="Contact">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>I build cozy web apps,<br>clean software & pretty things.</h2>
+    <p>Web • Apps • UI/UX • Graphics</p>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Welcome to Nebula Notes 🌙</h1>
-    <p>Your cosmic space to reflect, track, and grow.</p>
-    <a href="entries.html" class="cta-button">✨ Start Journaling</a>
-  </section>
+  <section class="filters" id="projects"></section>
+  <section class="grid" id="projectGrid"></section>
 
-  <!-- Features Section -->
-  <section class="features">
-    <div class="feature-card">
-      <h3>📝 Journaling</h3>
-      <p>Write and save your thoughts daily with date & mood.</p>
+  <footer id="contact">
+    <div class="footer-container">
+      <!-- About Me -->
+      <div class="footer-about">
+        <h3>About Me</h3>
+        <p>
+          I build cozy web apps, clean software, and pretty things. Passionate about
+          creating intuitive interfaces and delightful user experiences.
+        </p>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-contact">
+        <h3>Contact Me</h3>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:atlimosia@gmail.com">atlimosia@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone"></i> +27 68 655 5490</p>
+
+        <!-- Optional social links -->
+        <div class="footer-social">
+          <a href="https://github.com/sapphiremoonlight" target="_blank" aria-label="GitHub"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/atlehang-nxumalo-24a521291/" target="_blank" aria-label="LinkedIn"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
     </div>
-    <div class="feature-card">
-      <h3>📅 Mood Tracker</h3>
-      <p>Log your mood using emojis and colors on a calendar.</p>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Atli. All rights reserved.</p>
     </div>
-    <div class="feature-card">
-      <h3>🏆 Rocket</h3>
-      <p>Play the cute rocket game in your spare time.</p>
-    </div>
-    <div class="feature-card">
-      <h3>🔎 Smart Search</h3>
-      <p>Search by title, mood, tag, or entry content.</p>
-    </div>
-  </section>
-
-  <!-- Recent Entries Preview -->
-  <section class="recent-entries">
-    <h2>📖 Recent Entries</h2>
-    <div id="entry-preview-list"></div>
-  </section>
-
-  <!-- Spotify Player -->
-  <section id="spotify-player">
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0izlnveXyc7iw8uLZ87acj?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </section>
-
-  <!-- Motivational Quote -->
-  <section class="quote">
-    <blockquote>“Even the smallest stars shine in the dark.”</blockquote>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>© 2025 Nebula Notes • Created with stardust ✨</p>
-    <a href="https://github.com/yourusername/nebula-notes" target="_blank">GitHub Repo</a>
   </footer>
 
-	<!-- Loading Screen Overlay -->
-	<div id="loadingOverlay">
-  	<img src="https://static.vecteezy.com/system/resources/previews/035/982/442/original/ai-generated-3d-flying-rocket-isolated-on-transparent-background-free-png.png" alt="Loading Rocket" />
-  	<p>Launching your cosmic journey...</p>
-	</div>
-   <script src="scripts/script.js"></script>
-  <script src="scripts/index.js"></script>
-
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle"></h3>
+        <span class="close" id="closeModal">✕</span>
+      </div>
+      <p id="modalDescription"></p>
+      <div class="carousel" id="modalImages"></div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
 </body>
 </html>
