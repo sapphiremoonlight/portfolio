@@ -134,7 +134,7 @@ const projects = [
         category: "uiux",
         type: "professional",
         tags: ["Figma"],
-        images: ["uiux/coffee-app.png"]
+        images: ["assets/coffee-wireframe.png"]
     },
     {
         title: "Tree Saving Non-Profit Software Solution",
@@ -142,7 +142,23 @@ const projects = [
         category: "uiux",
         type: "professional",
         tags: ["Adobe XD"],
-        images: ["uiux/tree-nonprofit.png"]
+        images: [
+            "assets/tree-activity/tree-1.jpg",
+            "assets/tree-activity/tree-2.png",
+            "assets/tree-activity/tree-3.png",
+            "assets/tree-activity/tree-4.png",
+            "assets/tree-activity/tree-5.png",
+            "assets/tree-activity/tree-6.png",
+            "assets/tree-activity/tree-7.jpg",
+            "assets/tree-activity/tree-8.png",
+            "assets/tree-activity/tree-9.png",
+            "assets/tree-activity/tree-10.png",
+            "assets/tree-activity/tree-11.png",
+            "assets/tree-activity/tree-12.png",
+            "assets/tree-activity/tree-13.png",
+            "assets/tree-activity/tree-14.jpg",
+            "assets/tree-activity/tree-15.png"
+        ]
     },
     {
         title: "Airport CRM Service Use Case + System",
@@ -150,7 +166,7 @@ const projects = [
         category: "uiux",
         type: "professional",
         tags: ["Canva"],
-        images: ["uiux/airport-crm.png"]
+        images: ["assets/airport-CRM-service.mp4"]
     },
     {
         title: "Logo & Banner Designs",
@@ -161,7 +177,7 @@ const projects = [
         images: ["assets/bloom-1.png", "assets/lifelink.png", "assets/bloom-2.png", "assets/LLA.png", "assets/moneytrees.png", "assets/banner.png", "assets/boys next door.png", "assets/hatchery-1.png", "assets/hatchery-2.png", "assets/hatchery-3.png", "assets/nova.jpg", "assets/tinsel.png"]
     },
     {
-        title: "Latitude Zer🧭 Lite",
+        title: "Latitude Zero Lite",
         description: "This is meant to be a fun, but educational Geography game. Learn about continents, countries, cities (capitals and not), languages and cultures.",
         category: "web",
         type: "leisure",
