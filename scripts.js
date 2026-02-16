@@ -109,7 +109,7 @@ const projects = [
         category: "app",
         type: "professional",
         tags: ["Android", "Kotlin", "Application"],
-        images: ["assets/moneytrees.png"],
+        images: ["assets/moneytrees.png", "assets/moneytrees.mp4"],
         apk: "assets/moneytrees.apk"
     },
     {
@@ -323,3 +323,4 @@ closeModal.onclick = () => modal.classList.remove('active');
 modal.onclick = e => { if (e.target === modal) modal.classList.remove('active'); };
 
 renderProjects();
+
