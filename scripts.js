@@ -64,6 +64,20 @@ const projects = [
         images: ["assets/pasttimes.mp4"]
     },
     {
+    title: "Invitations",
+    description: "Beautifully crafted digital invitation templates for many special events. Fully designed and ready to personalize, with playful or elegant themes to suit any occasion.",
+    category: "graphics",
+    type: "leisure",
+    tags: ["Canva", "invitations", "graphics-design", "adobe express"],
+    images: [
+        "assets/invitations/invitation-1.png",
+        "assets/invitations/invitation-2.png",
+        "assets/invitations/invitation-3.png",
+        "assets/invitations/invitation-4.png",
+        "assets/invitations/invitation-5.png"
+    ]
+},
+    {
         title: "Literary Love Affar",
         description: "This is an unfinished (ongoing) blog website where I'm going to rate and review all the books I enjoy.",
         category: "web",
@@ -115,7 +129,9 @@ const projects = [
         "assets/birthday/card3.png",
         "assets/birthday/card4.png",
         "assets/birthday/card5.png",
-        "assets/birthday/card6.png"
+        "assets/birthday/card6.png",
+        "assets/birthday/card7.png",
+        "assets/birthday/card8.png"
     ]
 },
     {
@@ -197,7 +213,7 @@ const projects = [
         category: "graphics",
         type: "leisure",
         tags: ["Canva", "Adobe Express"],
-        images: ["assets/bloom-1.png", "assets/lifelink.png", "assets/bloom-2.png", "assets/LLA.png", "assets/moneytrees.png", "assets/banner.png", "assets/boys next door.png", "assets/hatchery-1.png", "assets/hatchery-2.png", "assets/hatchery-3.png", "assets/nova.jpg", "assets/tinsel.png"]
+        images: ["assets/bloom-1.png", "assets/lifelink.png", "assets/bloom-2.png", "assets/LLA.png", "assets/moneytrees.png", "assets/banner-1.png", "assets/banner-2.png", "assets/hatchery-1.png", "assets/hatchery-2.png", "assets/hatchery-3.png", "assets/nova.jpg", "assets/tinsel.png"]
     },
     {
         title: "Latitude Zero Lite",
@@ -346,6 +362,7 @@ closeModal.onclick = () => modal.classList.remove('active');
 modal.onclick = e => { if (e.target === modal) modal.classList.remove('active'); };
 
 renderProjects();
+
 
 
 
