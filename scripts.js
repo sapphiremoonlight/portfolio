@@ -1,5 +1,13 @@
 const projects = [
     {
+        title: "Pulp Fiction & Co. 🍊📚",
+        description: "It's an ongoing cozy and citrus-hued book nook. It serves up reviews, monthly reading picks, and feel-good literary vibes.",
+        category: "web",
+        type: "leisure",
+        tags: ["javascript", "html", "css", "mail-chimp", "reading"],
+        images: ["assets/pulp-fiction.mp4"]
+    },
+    {
         title: "Frostflix ❅❆❆",
         description: "A cozy Christmas web app that recommends movies based on your mood and preferences. Includes favorites, calendar log, and light/dark frosty themes.",
         category: "web",
@@ -323,4 +331,5 @@ closeModal.onclick = () => modal.classList.remove('active');
 modal.onclick = e => { if (e.target === modal) modal.classList.remove('active'); };
 
 renderProjects();
+
 
