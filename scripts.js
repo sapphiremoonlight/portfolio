@@ -104,6 +104,21 @@ const projects = [
         images: ["assets/calculator.png"]
     },
     {
+    title: "Birthday E-Cards",
+    description: "A set of six unique digital birthday card templates, each designed with a different theme to match the recipient’s personality and interests. While the preview text is filler, the designs are fully crafted, colorful, and ready to use for a variety of birthdays—from book lovers, formula 1 and anime fans, to music fans and cozy aesthetes.",
+    category: "graphics",
+    type: "leisure",
+    tags: ["Canva", "birthday", "cards"],
+    images: [
+        "assets/birthday/card1.png",
+        "assets/birthday/card2.png",
+        "assets/birthday/card3.png",
+        "assets/birthday/card4.png",
+        "assets/birthday/card5.png",
+        "assets/birthday/card6.png"
+    ]
+},
+    {
         title: "Contract Monthly Claim System",
         description: "Web app for managing employee monthly claims. Submit claims, validate by manager/coordinator, generate reports, and use a dashboard to manage claim statuses.",
         category: "app",
@@ -331,5 +346,6 @@ closeModal.onclick = () => modal.classList.remove('active');
 modal.onclick = e => { if (e.target === modal) modal.classList.remove('active'); };
 
 renderProjects();
+
 
 
